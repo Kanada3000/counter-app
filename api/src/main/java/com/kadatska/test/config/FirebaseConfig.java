@@ -18,6 +18,7 @@ public class FirebaseConfig {
         // FileInputStream serviceAccount = new FileInputStream("service-account-file.json");
         FirebaseOptions options = FirebaseOptions.builder()
                 // .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+            // $env:GOOGLE_APPLICATION_CREDENTIALS="path\to\service-account-file.json"
                 .setCredentials(GoogleCredentials.getApplicationDefault())
                 .build();
 
