@@ -15,9 +15,10 @@ import com.google.firebase.FirebaseOptions;
 public class FirebaseConfig {
     @PostConstruct
     void firebaseAuth() throws IOException {
-        FileInputStream serviceAccount = new FileInputStream("service-account-file.json");
+        // FileInputStream serviceAccount = new FileInputStream("service-account-file.json");
         FirebaseOptions options = FirebaseOptions.builder()
-                .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+                // .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+                .setCredentials(GoogleCredentials.getApplicationDefault())
                 .build();
 
         FirebaseApp.initializeApp(options);
