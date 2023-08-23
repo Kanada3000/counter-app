@@ -39,11 +39,16 @@ Ctrl/Cmd + F5
 
 `Url for API`
 
-GET http://localhost:8080/get-counter
+GET http://localhost:8080/counter
 
-POST http://localhost:8080/increase-counter
+POST http://localhost:8080/counter
 
 
 
 `Demo`
-![image](https://github.com/Kanada3000/counter-app/assets/40687761/d46e6f54-9438-4c8b-a299-59649b0979ad)
+![photo_2023-08-23_20-09-52](https://github.com/Kanada3000/counter-app/assets/40687761/8be46e07-b8fa-42d5-b7e1-ee8facd787d2)
+![photo_2023-08-23_20-09-30](https://github.com/Kanada3000/counter-app/assets/40687761/dc5732ce-a927-453a-9a01-add213cbf792)
+![photo_2023-08-23_20-09-30 (2)](https://github.com/Kanada3000/counter-app/assets/40687761/70d23a8a-4b66-44b6-b2e1-6392e3334a88)
+
+
+
