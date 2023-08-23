@@ -46,7 +46,9 @@ POST http://localhost:8080/counter
 
 
 `Credentials for testing`
+
 Phone: +380961111111 SMS: 111111
+
 Phone: +380962222222 SMS: 222222
 
 
