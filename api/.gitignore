@@ -1,9 +1,17 @@
 HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
 !**/src/test/**/build/
+
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
+
+### Java ###
+*.class
 
 ### STS ###
 .apt_generated
