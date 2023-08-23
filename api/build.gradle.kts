@@ -22,9 +22,12 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("mysql:mysql-connector-java:8.0.33")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-security")
+	implementation ("com.google.firebase:firebase-admin:9.2.0")
+	// implementation("org.springframework.security:spring-security-oauth2-resource-server:6.1.2")
 	implementation("org.liquibase:liquibase-core")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")

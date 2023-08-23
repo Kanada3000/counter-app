@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "954322287988",
+    "project_id": "counter-app-6b903",
+    "storage_bucket": "counter-app-6b903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954322287988:android:79bee4fe30dfbcfb454021",
+        "android_client_info": {
+          "package_name": "com.kadatska.counter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954322287988-pmn6tisflmk6blb19v7j4u4mtp3m4d1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUFzJtTU58RI-aXmpFKhs3tBzczUMYTHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954322287988-pmn6tisflmk6blb19v7j4u4mtp3m4d1l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "954322287988-b5db1jgj927br6a2390u1msc560gb72o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kadatska.counterApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
